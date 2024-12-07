@@ -21,6 +21,6 @@ public class Sphere implements Shape3DInterface {
 
     @Override
     public String toString() {
-        return "Sphere [radius=" + radius + "]";
+        return "Sphere [radius=" + String.format("%.2f", radius) + "]";
     }
 }

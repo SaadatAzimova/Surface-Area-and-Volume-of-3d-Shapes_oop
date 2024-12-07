@@ -23,6 +23,6 @@ public class Cylinder implements Shape3DInterface {
 
     @Override
     public String toString() {
-        return "Cylinder [radius=" + radius + ", height=" + height + "]";
+        return "Cylinder [radius=" + String.format("%.2f", radius) + ", height=" + String.format("%.2f", height) + "]";
     }
 }

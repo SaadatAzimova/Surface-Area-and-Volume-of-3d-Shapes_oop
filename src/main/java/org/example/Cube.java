@@ -21,6 +21,6 @@ public class Cube implements Shape3DInterface {
 
     @Override
     public String toString() {
-        return "Cube [side=" + side + "]";
+        return "Cube [side=" + String.format("%.2f", side) + "]";
     }
 }
